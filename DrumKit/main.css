@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container
+{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container .key
+{
+    padding: 30px 30px;
+    background-color: orange;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.play
+{
+    border: solid 2px orange;
+    border-radius: 5px !important;
+    background-color: white !important;
+    color: orange !important;
+}
